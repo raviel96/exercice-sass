@@ -9,12 +9,12 @@
   text-align: center;
 }
 
-.green-border-box {
+.box--have-green-border {
   border: 2px solid;
   border-color: green;
 }
 
-.red-border-box {
+.box--have-red-border {
   border: 2px solid;
   border-color: red;
 }

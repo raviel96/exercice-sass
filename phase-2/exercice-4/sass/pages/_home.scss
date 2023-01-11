@@ -1,0 +1,32 @@
+.container {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: darken($primary, 5%);
+
+    &>:first-child:hover {
+        cursor: pointer;
+        background-color: lighten($primary, 5%);
+    }
+
+    &>:first-child:hover>a {
+        color: $list-item-hover-text-color;
+    }
+
+    li {
+        padding: 10px;
+        background-color: darken($primary, 10%);
+
+        a {
+            padding: 5px;
+            text-decoration: none;
+            color: $list-text-color;
+        }
+    }
+}

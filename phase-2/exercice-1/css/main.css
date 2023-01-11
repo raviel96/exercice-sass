@@ -9,10 +9,10 @@
   text-align: center;
 }
 
-.green-box {
+.box--is-green {
   background-color: green;
 }
 
-.red-box {
+.box--is-red {
   background-color: red;
 }

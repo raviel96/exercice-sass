@@ -1,26 +1,25 @@
 .container {
   width: 60%;
   margin: 0 auto;
-  border: 1px solid;
+  border: 1px solid black;
 }
 
 .list {
-  background-color: green;
+  list-style: none;
   display: flex;
   justify-content: center;
-  list-style: none;
-  padding: 5px;
+  background-color: #006700;
 }
 .list > :first-child:hover {
-  background-color: white;
+  cursor: pointer;
+  background-color: #009a00;
 }
 .list > :first-child:hover > a {
-  color: red;
+  color: black;
 }
 .list li {
-  padding: 5px;
-  background-color: red;
-  margin-right: 5px;
+  padding: 10px;
+  background-color: #004d00;
 }
 .list li a {
   padding: 5px;

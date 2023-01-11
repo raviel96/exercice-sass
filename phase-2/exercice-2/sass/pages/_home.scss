@@ -9,12 +9,12 @@
     text-align: $center-text;
 }
 
-.green-border-box {
+.box--have-green-border {
     @include bordered();
     border-color: $green-color;
 }
 
-.red-border-box {
+.box--have-red-border {
     @include bordered();
     border-color: $red-color;
 }
