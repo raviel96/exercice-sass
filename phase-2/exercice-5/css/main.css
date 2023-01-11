@@ -1,0 +1,25 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  border: 1px solid black;
+  width: 45%;
+  height: 200px;
+  padding: 1%;
+}
+.box p {
+  margin: 0;
+}
+
+.box--is-green {
+  background-color: green;
+}
+
+.box--is-red {
+  background-color: red;
+}
