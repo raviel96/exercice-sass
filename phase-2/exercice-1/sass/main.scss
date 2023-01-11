@@ -1,0 +1,20 @@
+@import "variables/_variables.scss";
+
+.container {
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.box {
+    height: $box-height;
+}
+
+.green-box {
+    background-color: $green-color;
+}
+
+.red-box {
+    background-color: $red-color;
+}

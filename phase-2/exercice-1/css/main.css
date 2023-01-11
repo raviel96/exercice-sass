@@ -1,0 +1,18 @@
+.container {
+  width: 60%;
+  height: 300px;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+.box {
+  height: 50%;
+}
+
+.green-box {
+  background-color: green;
+}
+
+.red-box {
+  background-color: red;
+}
