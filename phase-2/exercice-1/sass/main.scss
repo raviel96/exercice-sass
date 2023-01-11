@@ -2,13 +2,13 @@
 
 .container {
     width: 60%;
-    height: 300px;
     margin: 0 auto;
     border: 1px solid;
 }
 
 .box {
     height: $box-height;
+    text-align: center;
 }
 
 .green-box {

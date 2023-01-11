@@ -1,0 +1,20 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+.box {
+  height: 200px;
+  text-align: center;
+}
+
+.green-border-box {
+  border: 2px solid;
+  border-color: green;
+}
+
+.red-border-box {
+  border: 2px solid;
+  border-color: red;
+}
