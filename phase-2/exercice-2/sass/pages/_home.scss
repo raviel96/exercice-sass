@@ -1,0 +1,20 @@
+.container {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.box {
+    height: $box-height;
+    text-align: $center-text;
+}
+
+.green-border-box {
+    @include bordered();
+    border-color: $green-color;
+}
+
+.red-border-box {
+    @include bordered();
+    border-color: $red-color;
+}

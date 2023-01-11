@@ -1,0 +1,28 @@
+.container {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.list {
+    background-color: $green-color;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: $list-margin;
+
+    li {
+        padding: $list-margin;
+        background-color: $red-color;
+        margin-right: $list-margin;
+
+        a {
+            padding: $list-margin;
+            text-decoration: none;
+            color: $white-color;
+
+        }
+       
+        
+    }
+}

@@ -1,0 +1,18 @@
+.container {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.box {
+    height: $box-height;
+    text-align: center;
+}
+
+.green-box {
+    background-color: $green-color;
+}
+
+.red-box {
+    background-color: $red-color;
+}

@@ -1,0 +1,23 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+.list {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 5px;
+}
+.list li {
+  padding: 5px;
+  background-color: red;
+  margin-right: 5px;
+}
+.list li a {
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
