@@ -1,7 +1,13 @@
+
+
 .container {
     width: 60%;
     margin: 0 auto;
     border: 1px solid;
+}
+
+nav {
+    height: 100%;
 }
 
 .list {
@@ -10,6 +16,14 @@
     justify-content: center;
     list-style: none;
     padding: $list-margin;
+
+    &>:first-child:hover {
+        background-color: $white-color;
+    }
+
+    &>:first-child:hover>a {
+        color: $red-color;
+    }
 
     li {
         padding: $list-margin;
@@ -25,4 +39,5 @@
        
         
     }
+
 }

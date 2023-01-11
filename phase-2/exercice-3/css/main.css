@@ -4,12 +4,22 @@
   border: 1px solid;
 }
 
+nav {
+  height: 100%;
+}
+
 .list {
   background-color: green;
   display: flex;
   justify-content: center;
   list-style: none;
   padding: 5px;
+}
+.list > :first-child:hover {
+  background-color: white;
+}
+.list > :first-child:hover > a {
+  color: red;
 }
 .list li {
   padding: 5px;
